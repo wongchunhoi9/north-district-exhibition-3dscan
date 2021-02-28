@@ -9,9 +9,11 @@
 </div> -->
 
 <div >
-    <iframe title="HoneyCombL" class="sketchfab-embed-wrapper" src="https://sketchfab.com/models/91604ec8cc6940e4be04e324c9c13582/embed?autospin=1&camera=0">
+    <iframe title="HoneyCombL" class="sketchfab-embed-wrapper" src="https://sketchfab.com/models/91604ec8cc6940e4be04e324c9c13582/embed?autospin=1&autostart=1&camera=0&preload=1">
     </iframe>
 </div>
+
+
 
 </div>
 </template>
@@ -27,10 +29,10 @@
   bottom: 0;
   right: 0;
   width: 100%;
-  height:140%;
+  height:110%;
     justify-content: center;
   align-items: center;
-  margin-top: -10%;
+  margin-top: -5%;
   margin-bottom: -10%;
 }
 

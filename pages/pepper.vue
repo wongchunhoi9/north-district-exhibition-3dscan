@@ -4,7 +4,7 @@
     
 
 <div >
-    <iframe title="pepper"  class="sketchfab-embed-wrapper" src="https://sketchfab.com/models/248055229ebb41fcb4e5c7fa87ad944c/embed">
+    <iframe title="pepper"  class="sketchfab-embed-wrapper" src="https://sketchfab.com/models/248055229ebb41fcb4e5c7fa87ad944c/embed?autospin=1&autostart=1&camera=0&preload=1">
     </iframe>
 </div>
 
