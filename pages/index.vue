@@ -12,13 +12,41 @@
         </b-col>
       </b-row>
     </b-container>
+    
+    <!-- 坪輋 強B哥 (採蜂人) -->
+    <b-container class="session-container">
+      <h5>坪輋 強B哥 (採蜂人)</h5>
+      <p> 新鮮蜂巢- 還滲著蜜糖的新鮮小型蜂巢</p>
+      <b-row >
+        <b-col>
+            <NuxtLink to="/honeycomb">
+              <div>
+                <h4> 蜜蜂巢</h4>
+                    <iframe title="HoneyComb" width="100%" height="400px" src="https://sketchfab.com/models/91604ec8cc6940e4be04e324c9c13582/embed?autospin=1&camera=0">
+                    </iframe>
+                   
+              </div> 
+            </NuxtLink>
+        </b-col>
+        <!-- <b-col>
+            <NuxtLink to="/pepper-display">
+              <div>
+                <h4> 自家種蕃茄</h4>
+                   <iframe title="Tomato" width="100%" height="400px"  src="https://sketchfab.com/models/93a095fce08b47f0980e41fc89023953/embed">
+                  </iframe> 
+              </div> 
+            </NuxtLink>
+        </b-col> -->
+      </b-row>
+    </b-container>
 
+    <!-- >馬屎埔 區家< -->
     <b-container class="session-container">
       <h5>馬屎埔 區家</h5>
       <p> - 平平無期，卻就是連我家住上水的姨媽也會特地騎單車去馬寶寶農場買的蔬果</p>
       <b-row >
         <b-col>
-            <NuxtLink to="/pepper-display">
+            <NuxtLink to="/pepper">
               <div>
                 <h4> 虎牙椒</h4>
                   <iframe title="pepper" width="100%" height="400px"  src="https://sketchfab.com/models/248055229ebb41fcb4e5c7fa87ad944c/embed">
@@ -27,7 +55,7 @@
             </NuxtLink>
         </b-col>
         <b-col>
-            <NuxtLink to="/pepper-display">
+            <NuxtLink to="/tomato">
               <div>
                 <h4> 自家種蕃茄</h4>
                    <iframe title="Tomato" width="100%" height="400px"  src="https://sketchfab.com/models/93a095fce08b47f0980e41fc89023953/embed">
@@ -37,6 +65,7 @@
         </b-col>
       </b-row>
     </b-container>
+
   </div>
 </template>
 
@@ -55,5 +84,7 @@
 .session-container { 
   background-color: antiquewhite;
   padding: 2rem;
+  border: black;
+  border-style:solid;
 }
 </style>
