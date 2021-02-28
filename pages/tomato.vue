@@ -3,8 +3,12 @@
 <div >
     
 
-<div >
-    <iframe title="pepper"  class="sketchfab-embed-wrapper" src="https://sketchfab.com/models/248055229ebb41fcb4e5c7fa87ad944c/embed">
+<!-- <div >
+    <iframe title="pepper"   src="https://sketchfab.com/models/248055229ebb41fcb4e5c7fa87ad944c/embed">
+    </iframe>
+</div> -->
+<div>
+    <iframe title="Tomato" class="sketchfab-embed-wrapper" src="https://sketchfab.com/models/93a095fce08b47f0980e41fc89023953/embed?autospin=1&autostart=1&camera=0&preload=1&ui_hint=2">
     </iframe>
 </div>
 
