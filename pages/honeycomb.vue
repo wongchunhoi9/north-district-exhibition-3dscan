@@ -29,10 +29,10 @@
   bottom: 0;
   right: 0;
   width: 100%;
-  height:110%;
+  height:120%;
     justify-content: center;
   align-items: center;
-  margin-top: -5%;
+  margin-top: -10%;
   margin-bottom: -10%;
 }
 
