@@ -31,7 +31,9 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    'bootstrap-vue/nuxt'
+  ],
   /*
    ** Build configuration
    */
@@ -41,4 +43,8 @@ export default {
      */
     extend(config, ctx) {},
   },
+  server: { 
+    port: 3000, // default: 3000
+    host: '0.0.0.0' // default: localhost
+  }
 };

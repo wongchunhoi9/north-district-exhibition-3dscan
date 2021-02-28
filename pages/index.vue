@@ -1,72 +1,59 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        nuxtjs
-      </h1>
-      <h2 class="subtitle">
-        My astonishing Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div>
+    <b-container class="catalog-container" >
+      <b-row>
+        <b-col>
+          <div>
+            <h4>立體掃瞄</h4>
+            <p>
+              匆匆探訪了數個紮根北區的居民，我從旁觀察了他們人生之中很短很短的剎那。並帶走了幾件我認為可能反映到他們當下生活的一些東西。有的是他們珍而重之的用具，有的是他們的日常生產的東西，有的更可能是北區居民剛剛買到過的食物。這都是他們見慣見熟、不以為然的東西。這些物件全部都以「手信」的形式來到我這「外地人」手上。我把這些他們慷慨贈之的東西做了立體描掃，不為什麼保留不保留什麼獨特的歷史文化價值，只為提供另一個面向去仔細看看居民生活這小單位歷史。
+            </p>
+          </div>
+        </b-col>
+      </b-row>
+    </b-container>
+
+    <b-container class="session-container">
+      <h5>馬屎埔 區家</h5>
+      <p> - 平平無期，卻就是連我家住上水的姨媽也會特地騎單車去馬寶寶農場買的蔬果</p>
+      <b-row >
+        <b-col>
+            <NuxtLink to="/pepper-display">
+              <div>
+                <h4> 虎牙椒</h4>
+                  <iframe title="pepper" width="100%" height="400px"  src="https://sketchfab.com/models/248055229ebb41fcb4e5c7fa87ad944c/embed">
+                  </iframe> 
+              </div> 
+            </NuxtLink>
+        </b-col>
+        <b-col>
+            <NuxtLink to="/pepper-display">
+              <div>
+                <h4> 自家種蕃茄</h4>
+                   <iframe title="Tomato" width="100%" height="400px"  src="https://sketchfab.com/models/93a095fce08b47f0980e41fc89023953/embed">
+                  </iframe> 
+              </div> 
+            </NuxtLink>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
-export default {
-  components: {
-    Logo
-  }
-}
+
+
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.catalog-container {
+  width: 100%;
+  padding: 4%;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.session-container { 
+  background-color: antiquewhite;
+  padding: 2rem;
 }
 </style>
