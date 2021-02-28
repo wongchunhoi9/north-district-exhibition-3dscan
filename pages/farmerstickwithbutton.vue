@@ -3,10 +3,11 @@
 <div >
     
 
-    <div >
-      <nuxt-link to="raddishwithbutton"> <b-button class="button-left"  variant="dark"> ᐊ </b-button></nuxt-link>
-      <nuxt-link to="honeycombwithbutton"><b-button class="button-right"  variant="dark"> ᐅ </b-button></nuxt-link>
-    </div>
+
+      <div >
+        <nuxt-link to="raddishwithbutton"><div  class="button-left"><span class="button-arrow-wrap">ᐊ</span></div></nuxt-link>
+        <nuxt-link to="honeycombwithbutton"><div  class="button-right"><span class="button-arrow-wrap">ᐅ</span></div></nuxt-link>
+      </div>
 
 <div class="modelcontainter">
     <iframe title="farmerstickzip" class="sketchfab-embed-wrapper" src="https://sketchfab.com/models/474aaceb6ae249919f48112acf4fb2ce/embed?autospin=1&autostart=1&preload=1&transparent=0">
@@ -50,8 +51,11 @@
   right: 0;
   width: 3%;
   height:140%;
-  /* background-image:  url('~assets/UI/buttonleft.svg'); */
+  text-align: center;
+  background-color: black;
+  
 }
+
 .button-right {  
   position: absolute;
   top: 0;
@@ -60,7 +64,15 @@
   right: 0;
   width: 3%;
   height:140%;
-  /* background-image:  url('~assets/buttonleft'); */
+   text-align: center;
+  background-color: black;
+}
+
+.button-arrow-wrap {
+  top: 50%;
+  margin: 0;
+  position: absolute;
+  color: white;
 }
 
 </style>
