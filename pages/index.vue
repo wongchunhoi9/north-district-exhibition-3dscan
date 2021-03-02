@@ -17,17 +17,18 @@
       <b-row>
         <b-col>
           <nuxt-link to="farmerstickwithbutton">  <h2>demo on ipad display set 1 (please use tablet to open this link for demo</h2></nuxt-link>
+          <nuxt-link to="pepperwithbutton">  <h2>demo on ipad display set 2 (please use tablet to open this link for demo</h2></nuxt-link>
         </b-col>
       </b-row>
     </b-container>
 
 
     <!-- 坪輋 財哥 (魚菜共生實驗農場負責人) -->
-    <b-container class="session-container">
+    <b-container class="session-container" >
       <h5>坪輋 財哥 (魚菜共生實驗農場負責人)</h5>
       
-      <b-row >
-        <b-col>
+      <b-row  >
+        <b-col md="6" >
             <NuxtLink to="/farmerstick">
               <div>
                 <h4> 禾旱草擔挑</h4>
@@ -38,7 +39,7 @@
             </NuxtLink>
             <p> 他兒時有用到的一款工具，現在已很稀有的。是一支用花梨木製成的全手造擔挑，外型像雙頭矛，用作一次過搬運數扎禾旱草之用。      </p>
         </b-col>
-        <b-col>
+        <b-col md="6">
             <NuxtLink to="/raddish">
               <div>
                 <h4> 蘿蔔</h4>
